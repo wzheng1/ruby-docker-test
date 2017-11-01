@@ -3,7 +3,6 @@ FROM centos/ruby-22-centos7
 USER default
 #ENV SVC_IP 172.30.53.52:8080
 RUN curl --connect-timeout 5 ruby-ex-wzheng1.apps.1101-fyi.qe.rhcloud.com
-RUN sleep 1000000
 
 EXPOSE 8080
 COPY . /opt/app-root/src/
