@@ -2,7 +2,7 @@ FROM centos/ruby-22-centos7
 
 USER default
 #ENV SVC_IP 172.30.53.52:8080
-RUN curl 172.30.245.57:8080
+RUN curl 172.30.13.160:8080
 
 EXPOSE 8080
 COPY . /opt/app-root/src/
